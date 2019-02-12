@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://ecstatic-clarke-f63514.netlify.com/"
 languageCode = "en-us"
 title = "John Doe Resume"
 theme = "hugo-orbit-theme"
