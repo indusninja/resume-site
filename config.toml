@@ -2,7 +2,7 @@
 
 baseurl = "https://ecstatic-clarke-f63514.netlify.com/"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "Prakash Prasad Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -14,8 +14,8 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Resume for Prakash Prasad"
+    author = "Prakash Prasad"
 
 # Theme styles
 
@@ -24,15 +24,15 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
+    styles = "styles-6.css"
 
 # Sidebar sections
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        name = "Prakash Prasad"
+        tagline = "Game Programmer"
+        avatar = "latest_profile_pic_500x500.jpg"
 
     # Contact section
     [params.contact]
@@ -41,38 +41,38 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: prakash@prakashprasad.com"
+        title = "prakash@prakashprasad.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+4794263344"
+        title = "+4794263344"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "//projects.shader.works"
+        title = "projects.shader.works"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/prakashprasad"
+        title = "linkedin.com/in/prakashprasad"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/indusninja"
+        title = "github.com/indusninja"
 
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//twitter.com/indusninja"
+        title = "@indusninja"
 
     # Education section
     [params.education]
@@ -80,14 +80,19 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "MS in Media Technology & Games"
+        college = "IT University of Copenhagen"
+        dates = "2009 - 2011"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "BS in Computer Science"
+        college = "Coastal Carolina University"
+        dates = "2004 - 2005"
+
+        [[params.education.list]]
+        degree = "BS in Computer Science"
+        college = "Ansal Institute of Technology"
+        dates = "2002 - 2004"
 
     # Languages section
     [params.language]
@@ -99,12 +104,13 @@ disable404 = true
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
-        level = "Professional"
+        language = "Hindi"
+        level = "Native"
 
         [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
+        language = "Norwegian"
+        level = "Reading"
+        # level = "Professional"
 
     # Interests section
     [params.interests]
@@ -115,10 +121,7 @@ disable404 = true
         interest = "Climbing"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
-
-        [[params.interests.list]]
-        interest = "Cooking"
+        interest = "Photography"
 
 # Main body sections
 
@@ -138,21 +141,21 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
+        position = "System Developer"
+        dates = "2018 - Present"
+        company = "If P&C, Oslo"
         details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
+        position = "Game Programmer"
+        dates = "2016 - 2018"
+        company = "The Future Group, Oslo"
         details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
+        position = "Game Programmer"
+        dates = "2011 - 2016"
+        company = "Reto-Moto, Copenhagen"
         details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
 
     # Projects section
@@ -160,32 +163,42 @@ disable404 = true
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        intro = "These are some of the side projects that I've worked on in my free time. Some of the details of these projects and more projects can also be found at [projects.shader.works](projects.shader.works)"
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "Stay, Good Dog!"
+        url = "https://github.com/indusninja/stay-good-dog"
+        tagline = "A game that is all about a friendship between a dog and his owner. You play as the dog, and you must find your way back home to the arms of your owner."
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+        title = "What's mine is NOT yours"
+        url = "https://github.com/indusninja/flatmates"
+        tagline = "A 2D multiplayer game where each player tries to hoard as much items in a shared apartment."
 
         [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        title = "The Gods Must be Crazy"
+        url = "https://github.com/indusninja/godsmustbecrazy"
+        tagline = "A game where players have to try to destroy life in a given solar system by utilizing celestial mechanics (i.e. motion of objects in space, under the influence of objects in space)."
 
         [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
+        title = "Monkey of Puppets"
+        url = "https://github.com/indusninja/monkeyofpuppets"
+        tagline = "A puzzle game where players have to sneak past the enemies, find the key and get to the door to escape the current level. And do it all over again in the next level."
 
         [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        title = "Snowball Fight"
+        url = "https://bitbucket.org/klauskk/snowball"
+        tagline = "A 3D multiplayer game where players fight across a snow covered playground in teams."
+
+        [[params.projects.list]]
+        title = "Gnome Engine"
+        url = "https://github.com/indusninja/gnome-engine"
+        tagline = "A basic game engine (OpenGL 3.x) designed for games with physics for balls."
+
+        [[params.projects.list]]
+        title = "Bocce"
+        url = "https://github.com/indusninja/bocce"
+        tagline = "A basic 2D game engine for XNA framework."
 
     # Skills section
     [params.skills]
@@ -194,28 +207,24 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
+        skill = "C++"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "C#"
+        level = "95%"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
-
+        skill = "Javascript"
+        level = "70%"
+                
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "React"
         level = "60%"
+
+        [[params.skills.list]]
+        skill = "Unreal Engine"
+        level = "85%"
 
     # Footer section
 
