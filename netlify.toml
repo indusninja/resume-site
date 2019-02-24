@@ -30,11 +30,6 @@ HUGO_VERSION = "0.54.0"
 HUGO_ENABLEGITINFO = "true"
 
 [[headers]]
-  for = "/*.ttf"
+  for = "/assets/plugins/font-awesome/fonts/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    Content-Type = "application/x-font-truetype"
-  for = "/*.woff"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Content-Type = "application/font-woff"
