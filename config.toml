@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://ecstatic-clarke-f63514.netlify.com/"
+baseurl = "//ecstatic-clarke-f63514.netlify.com/"
 languageCode = "en-us"
 title = "Prakash Prasad Resume"
 theme = "hugo-orbit-theme"
