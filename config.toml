@@ -144,19 +144,19 @@ disable404 = true
         position = "System Developer"
         dates = "2018 - Present"
         company = "If P&C, Oslo"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        details = "If is a Nordic insurance company that needs its business processes to be as unified as possible for several countries."
 
         [[params.jobs.list]]
         position = "Game Programmer"
         dates = "2016 - 2018"
         company = "The Future Group, Oslo"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = "The Future Group uses [Unreal Engine 4](https://www.unrealengine.com/en-US/what-is-unreal-engine-4) to develop tightly coupled products for television broadcasting. Their products vary from content for broadcasts, to second screen mobile apps supplementing those broadcasts. Their first show, **Lost in Time**, aired in April 2017 in Norway.\n\n- Technical lead who was charged with delivering the games, which involved designing the production pipeline (setting up [Perforce SCM](https://www.perforce.com/products/helix-core) branch structure, and [Jenkins](https://jenkins.io/) build pipelines), along with making sure that the game's architecture afforded all feature we would need.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimization on PC and mobile platforms (iOS and Android).\n\n- Architect of a messaging service, which would act as a data provider for several products in the company."
 
         [[params.jobs.list]]
         position = "Game Programmer"
         dates = "2011 - 2016"
         company = "Reto-Moto, Copenhagen"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = "Heroes & Generals is a free-to-play, massively multiplayer online (MMO) game that combines real-time strategy (RTS) with first person shooter (FPS) gameplay. The game’s framework is built as an event driven architecture using [protocol buffers](https://developers.google.com/protocol-buffers/) for passing messages.\n\nAt the core is the game’s 'WarServer' which provides most of the game's services such as login, matchmaking, statistics, metrics, transactions, handling results of games, etc. These services are consumed by various parts of the game - web client, FPS game, and mobile client.\n\n- Implement handlers that service game clients. For example, buying soldiers, equipping/un-equipping items on soldiers, execute movement orders for units, etc.\n\n- The architecture is based on an in-memory key-value data storage. However, one issue with such a system was handling multiple updated to the same object before transaction was finalized. I implemented a data layer that would allow this functionality by caching intermediate results.\n\n- Some of the game's immutable data had to be accessed through the in-memory data storage system, which was hurting performance. I implemented a cache data layer that improved access to this data by about 10 times.\n\n- Data Management: Handling tasks related to management, upgrade, upkeep, and trouble-shooting on the game's dataset which is stored on SQL database servers."
 
     # Projects section
     [params.projects]
