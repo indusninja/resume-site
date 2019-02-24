@@ -2,7 +2,6 @@
 
 baseurl = "//ecstatic-clarke-f63514.netlify.com/"
 languageCode = "en-us"
-title = "Prakash Prasad Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-27962903-3"
 
@@ -16,13 +15,14 @@ disable404 = true
 # Meta
     description = "Resume for Prakash Prasad"
     author = "Prakash Prasad"
+    title = "Prakash Prasad's Resume"
 
 # Theme styles
 
-    # The original template comes with 6 colour schemes. You may choose styles below.
+    # The original template comes with 6 color schemes. You may choose styles below.
     # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
     # are available. Also the source LESS files are included so
-    # it’s quick and easy to change the styling and colour scheme.
+    # it’s quick and easy to change the styling and color scheme.
 
     styles = "styles-6.css"
 
@@ -132,7 +132,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "\n\nMy professional journey has taken me from being a consultant (.NET), co-founder (Computer Graphics and Animation), backend developer (MMO Strategy game), game developer (Unreal Engine, Mobile App and R&D). All the while I've enjoyed creating systems that can be easily maintained and built upon, all the while trying to learn with each step. Designing efficient systems is what I dream about, and I hope to continue learning from each project and people around me. My education background has been in theoretical computer science, applied mathematics and game development."
 
     # Experiences section
     [params.experiences]
@@ -144,13 +144,13 @@ disable404 = true
         position = "System Developer"
         dates = "2018 - Present"
         company = "If P&C, Oslo"
-        details = "If is a Nordic insurance company that needs its business processes to be as unified as possible for several countries."
+        details = "At 'If' my role is to design systems and implement them. Mostly these systems utilize a backend (usually built on the Azure platform in C#), and a frontend (usually made in React)."
 
         [[params.jobs.list]]
         position = "Game Programmer"
         dates = "2016 - 2018"
         company = "The Future Group, Oslo"
-        details = "The Future Group uses [Unreal Engine 4](https://www.unrealengine.com/en-US/what-is-unreal-engine-4) to develop tightly coupled products for television broadcasting. Their products vary from content for broadcasts, to second screen mobile apps supplementing those broadcasts. Their first show, **Lost in Time**, aired in April 2017 in Norway.\n\n- Technical lead who was charged with delivering the games, which involved designing the production pipeline (setting up [Perforce SCM](https://www.perforce.com/products/helix-core) branch structure, and [Jenkins](https://jenkins.io/) build pipelines), along with making sure that the game's architecture afforded all feature we would need.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimization on PC and mobile platforms (iOS and Android).\n\n- Architect of a messaging service, which would act as a data provider for several products in the company."
+        details = "The Future Group uses [Unreal Engine 4](https://www.unrealengine.com/en-US/what-is-unreal-engine-4) to develop tightly coupled products for television broadcasting. Their products vary from content for broadcasts, to second screen mobile apps augmenting those broadcasts. Their first show, **Lost in Time**, aired in April 2017 in Norway.\n\n- Technical lead who was charged with delivering the games, which involved designing the production pipeline (setting up [Perforce SCM](https://www.perforce.com/products/helix-core) branch structure, and [Jenkins](https://jenkins.io/) build pipelines), along with making sure that the game's architecture afforded all feature we would need.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimization on PC and mobile platforms (iOS and Android).\n\n- Architect of a messaging service, which would act as a data provider for several products in the company."
 
         [[params.jobs.list]]
         position = "Game Programmer"
@@ -163,7 +163,7 @@ disable404 = true
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "These are some of the side projects that I've worked on in my free time. Some of the details of these projects and more projects can also be found at [projects.shader.works](projects.shader.works)"
+        intro = "These are some of the side projects that I've worked on in my free time. Some of the details of these projects and more projects can also be found at [projects.shader.works](https://projects.shader.works/)"
 
         [[params.projects.list]]
         title = "Stay, Good Dog!"
