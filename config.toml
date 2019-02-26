@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Prakash Prasad"
-        tagline = "Game Programmer"
+        tagline = "Software Architect / Tech Lead"
         avatar = "latest_profile_pic_500x500.jpg"
 
     # Contact section
@@ -132,8 +132,9 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "\n\nMy professional journey has taken me from being a consultant (.NET), co-founder (Computer Graphics and Animation), backend developer (MMO Strategy game), game developer (Unreal Engine, Mobile App and R&D). All the while I've enjoyed creating systems that can be easily maintained and built upon, all the while trying to learn with each step. Designing efficient systems is what I dream about, and I hope to continue learning from each project and people around me. My education background has been in theoretical computer science, applied mathematics and game development."
+        summary = "I believe that the primary role of a software developer is to 'solve problems'. Want to order a pizza from your phone? Want to show your love for cats to the internet? Want to keep track of things to do? Well, a software developer can solve those for you.\n\nThe most basic problems are the ones that are defined by someone to most detailed level, and a developer is asked to 'just make it work'. However, other problems are more complex and harder to solve:\n\n- Our delivery cycle is very slow because our development team needs many steps before making a release,\n\n- Our software is often buggy,\n\n- We often wildly miss our deadlines,\n\n- We have a hard time keeping hold of development team,\n\n- Our software performs badly,\n\n- Our software systems are very complex and need a lot of time and energy to change direction etc.\n\nI find these broader issues in software development to be very interesting. A solid foundation of architectural foresight and planning, clear and transparent communication, and a good development workflow would be my three wishes for any team to navigate through most of these issues - something that I've learned first-hand from my experience in game development.\n\nI try to feel the pulse of common pitfalls in software development, and am ever curious about new trends which can alleviate those issues. However, there are many more problems for me to explore in software development, and there is much more to learn. The question is... where to next?"
 
+# I'm a game programmer with many projects under by belt. 
     # Experiences section
     [params.experiences]
         enable = true
@@ -144,61 +145,61 @@ disable404 = true
         position = "System Developer"
         dates = "2018 - Present"
         company = "If P&C, Oslo"
-        details = "At 'If' my role is to design systems and implement them. Mostly these systems utilize a backend (usually built on the Azure platform in C#), and a frontend (usually made in React)."
+        details = "For a multi-national company like 'If', the focus is often on designing homogenous processes (and consequently software) to simplify complexity and lower costs. In this particular case, this means a focus on decomposing the company's legacy monolith application into a more flexible and maintainable microservice architecture. My role in this mission statement is to:\n\n- Split up monolith functionality into microservices, and promote these into Azure.\n\n- Design and implement any new services to be cloud native.\n\n- Fullstack development of C# backend systems along with React based frontends."
 
         [[params.jobs.list]]
         position = "Game Programmer"
         dates = "2016 - 2018"
         company = "The Future Group, Oslo"
-        details = "The Future Group uses [Unreal Engine 4](https://www.unrealengine.com/en-US/what-is-unreal-engine-4) to develop tightly coupled products for television broadcasting. Their products vary from content for broadcasts, to second screen mobile apps augmenting those broadcasts. Their first show, **Lost in Time**, aired in April 2017 in Norway.\n\n- Technical lead who was charged with delivering the games, which involved designing the production pipeline (setting up [Perforce SCM](https://www.perforce.com/products/helix-core) branch structure, and [Jenkins](https://jenkins.io/) build pipelines), along with making sure that the game's architecture afforded all feature we would need.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimization on PC and mobile platforms (iOS and Android).\n\n- Architect of a messaging service, which would act as a data provider for several products in the company."
+        details = "The Future Group develops tightly coupled products for television broadcasting using **[Unreal Engine 4](https://www.unrealengine.com/en-US/what-is-unreal-engine-4)**. Their products vary from *content for broadcasts*, to *second screen mobile apps* augmenting those broadcasts. Their first show, **Lost in Time**, aired in April 2017 in Norway. While working at there, my duties were:\n\n- As technical lead my role was to liaise with various stakeholders in production of the games - workflow (setting up *[Perforce SCM](https://www.perforce.com/products/helix-core)*, and *[Jenkins](https://jenkins.io/)* build pipelines), architecture, QA, etc.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimizations for PC and mobile platforms (iOS and Android).\n\n- Architect of a messaging service providing data interoperability for several internal and external products."
 
         [[params.jobs.list]]
         position = "Game Programmer"
         dates = "2011 - 2016"
         company = "Reto-Moto, Copenhagen"
-        details = "Heroes & Generals is a free-to-play, massively multiplayer online (MMO) game that combines real-time strategy (RTS) with first person shooter (FPS) gameplay. The game’s framework is built as an event driven architecture using [protocol buffers](https://developers.google.com/protocol-buffers/) for passing messages.\n\nAt the core is the game’s 'WarServer' which provides most of the game's services such as login, matchmaking, statistics, metrics, transactions, handling results of games, etc. These services are consumed by various parts of the game - web client, FPS game, and mobile client.\n\n- Implement handlers that service game clients. For example, buying soldiers, equipping/un-equipping items on soldiers, execute movement orders for units, etc.\n\n- The architecture is based on an in-memory key-value data storage. However, one issue with such a system was handling multiple updated to the same object before transaction was finalized. I implemented a data layer that would allow this functionality by caching intermediate results.\n\n- Some of the game's immutable data had to be accessed through the in-memory data storage system, which was hurting performance. I implemented a cache data layer that improved access to this data by about 10 times.\n\n- Data Management: Handling tasks related to management, upgrade, upkeep, and trouble-shooting on the game's dataset which is stored on SQL database servers."
+        details = "Heroes & Generals is a free-to-play, massively multiplayer online (MMO) game that combines real-time strategy (RTS) with first person shooter (FPS) gameplay. The game’s backend is an event driven architecture, which uses [protocol buffers](https://developers.google.com/protocol-buffers/) for passing messages.\n\nAt the game's core is a 'WarServer' which provides most of the game's services such as *login*, *matchmaking*, *statistics*, *metrics*, *transactions*, *handling results of games*, etc. These services are consumed by various parts of the game - *web client*, *FPS game*, and *mobile client*.\n\n- Implement handlers that service game clients. For example, *buying soldiers*, *equipping/un-equipping items on soldiers*, *execute movement orders for units*, etc.\n\n- The backend architecture uses an in-memory key-value data storage. However, one issue with such a system was handling multiple updated to the same object before a transaction is finalized. I implemented an interface that would allow this functionality by caching intermediate results.\n\n- Some of the game's immutable data had to be accessed through the in-memory data storage system, which was hurting performance. I implemented a cache layer that improved access to this data by about 10 times.\n\n- Data Management: Handling tasks related to management, upgrade, upkeep, and trouble-shooting on the game's dataset which is stored on SQL database servers."
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "These are some of the side projects that I've worked on in my free time. Some of the details of these projects and more projects can also be found at [projects.shader.works](https://projects.shader.works/)"
+        intro = "These are some of the side projects that I've worked on in my free time. For more info about these and other such projects visit **[projects.shader.works](https://projects.shader.works/)**"
 
         [[params.projects.list]]
         title = "Stay, Good Dog!"
         url = "https://github.com/indusninja/stay-good-dog"
-        tagline = "A game that is all about a friendship between a dog and his owner. You play as the dog, and you must find your way back home to the arms of your owner."
+        tagline = "Game that is all about a friendship between a dog and his owner. You play as the dog, and you must find your way back home to the arms of your owner."
 
         [[params.projects.list]]
         title = "What's mine is NOT yours"
         url = "https://github.com/indusninja/flatmates"
-        tagline = "A 2D multiplayer game where each player tries to hoard as much items in a shared apartment."
+        tagline = "2D multiplayer game where each player tries to hoard as much items in a shared apartment."
 
         [[params.projects.list]]
         title = "The Gods Must be Crazy"
         url = "https://github.com/indusninja/godsmustbecrazy"
-        tagline = "A game where players have to try to destroy life in a given solar system by utilizing celestial mechanics (i.e. motion of objects in space, under the influence of objects in space)."
+        tagline = "Game where players have to try to destroy life in a given solar system by utilizing celestial mechanics (i.e. motion of objects in space, under the influence of objects in space)."
 
         [[params.projects.list]]
         title = "Monkey of Puppets"
         url = "https://github.com/indusninja/monkeyofpuppets"
-        tagline = "A puzzle game where players have to sneak past the enemies, find the key and get to the door to escape the current level. And do it all over again in the next level."
+        tagline = "Puzzle game where players have to sneak past the enemies, find the key and get to the door to escape the current level. And do it all over again in the next level."
 
         [[params.projects.list]]
         title = "Snowball Fight"
         url = "https://bitbucket.org/klauskk/snowball"
-        tagline = "A 3D multiplayer game where players fight across a snow covered playground in teams."
+        tagline = "3D multiplayer game where players fight across a snow covered playground in teams."
 
         [[params.projects.list]]
         title = "Gnome Engine"
         url = "https://github.com/indusninja/gnome-engine"
-        tagline = "A basic game engine (OpenGL 3.x) designed for games with physics for balls."
+        tagline = "3D game engine (for OpenGL 3.x), designed for games with physics for balls."
 
         [[params.projects.list]]
         title = "Bocce"
         url = "https://github.com/indusninja/bocce"
-        tagline = "A basic 2D game engine for XNA framework."
+        tagline = "2D game engine (for XNA framework)."
 
     # Skills section
     [params.skills]
@@ -207,12 +208,12 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "C++"
-        level = "90%"
+        skill = "C#"
+        level = "100%"
 
         [[params.skills.list]]
-        skill = "C#"
-        level = "95%"
+        skill = "C++"
+        level = "90%"
                 
         [[params.skills.list]]
         skill = "Javascript"
@@ -224,7 +225,7 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Unreal Engine"
-        level = "85%"
+        level = "90%"
 
     # Footer section
 
