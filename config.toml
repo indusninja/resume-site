@@ -144,7 +144,7 @@ disable404 = true
         [[params.jobs.list]]
         position = "System Developer"
         dates = "2018 - Present"
-        company = "If P&C, Oslo"
+        company = "If Skadeforsikring, Oslo"
         details = "For a multi-national company like 'If', the focus is often on designing homogenous processes (and consequently software) to simplify complexity and lower costs. In this particular case, this means a focus on decomposing the company's legacy monolith application into a more flexible and maintainable microservice architecture. My role in this mission statement is to:\n\n- Split up monolith functionality into microservices, and promote these into Azure.\n\n- Design and implement any new services to be cloud native.\n\n- Fullstack development of C# backend systems along with React based frontends."
 
         [[params.jobs.list]]
