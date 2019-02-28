@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Prakash Prasad"
-        tagline = "Software Architect / Tech Lead"
+        tagline = "Architect / Tech Lead"
         avatar = "latest_profile_pic_500x500.jpg"
 
     # Contact section
@@ -55,6 +55,12 @@ disable404 = true
         icon = "fa-globe"
         url = "//projects.shader.works"
         title = "projects.shader.works"
+
+        [[params.contact.list]]
+        class = "blog"
+        icon = "fa-book"
+        url = "//blog.shader.works"
+        title = "blog.shader.works"
 
         [[params.contact.list]]
         class = "linkedin"
