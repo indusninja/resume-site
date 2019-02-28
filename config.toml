@@ -24,7 +24,7 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and color scheme.
 
-    styles = "styles-6.css"
+    styles = "styles-3.css"
 
 # Sidebar sections
 
@@ -145,26 +145,26 @@ disable404 = true
         position = "System Developer"
         dates = "2018 - Present"
         company = "If Skadeforsikring, Oslo"
-        details = "For a multi-national company like 'If', the focus is often on designing homogenous processes (and consequently software) to simplify complexity and lower costs. In this particular case, this means a focus on decomposing the company's legacy monolith application into a more flexible and maintainable microservice architecture. My role in this mission statement is to:\n\n- Split up monolith functionality into microservices, and promote these into Azure.\n\n- Design and implement any new services to be cloud native.\n\n- Fullstack development of C# backend systems along with React based frontends."
+        details = "For a multi-national company like **If**, the focus is often on designing homogenous processes (and consequently software) to simplify complexity and lower costs. In this particular case, this means a focus on decomposing the company's legacy monolith application into a more flexible and maintainable microservice architecture. My role in this mission statement is to:\n\n- Split up monolith functionality into microservices, and promote these into Azure.\n\n- Design and implement any new services to be cloud native.\n\n- Fullstack development of C# backend systems along with React based frontends."
 
         [[params.jobs.list]]
         position = "Game Programmer"
         dates = "2016 - 2018"
         company = "The Future Group, Oslo"
-        details = "The Future Group develops tightly coupled products for television broadcasting using **[Unreal Engine 4](https://www.unrealengine.com/en-US/what-is-unreal-engine-4)**. Their products vary from *content for broadcasts*, to *second screen mobile apps* augmenting those broadcasts. Their first show, **Lost in Time**, aired in April 2017 in Norway. While working at there, my duties were:\n\n- As technical lead my role was to liaise with various stakeholders in production of the games - workflow (setting up *[Perforce SCM](https://www.perforce.com/products/helix-core)*, and *[Jenkins](https://jenkins.io/)* build pipelines), architecture, QA, etc.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimizations for PC and mobile platforms (iOS and Android).\n\n- Architect of a messaging service providing data interoperability for several internal and external products."
+        details = "The Future Group develops tightly coupled products for television broadcasting using [Unreal Engine 4](https://www.unrealengine.com/en-US/what-is-unreal-engine-4). Their products vary from content for broadcasts, to second screen mobile apps augmenting those broadcasts. Their first show, **Lost in Time**, aired in April 2017 in Norway. While working at there, my duties were:\n\n- As technical lead my role was to liaise with various stakeholders in production of the games - workflow (setting up [Perforce SCM](https://www.perforce.com/products/helix-core), and [Jenkins](https://jenkins.io/) build pipelines), architecture, QA, etc.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimizations for PC and mobile platforms (iOS and Android).\n\n- Architect of a messaging service providing data interoperability for several internal and external products."
 
         [[params.jobs.list]]
         position = "Game Programmer"
         dates = "2011 - 2016"
         company = "Reto-Moto, Copenhagen"
-        details = "Heroes & Generals is a free-to-play, massively multiplayer online (MMO) game that combines real-time strategy (RTS) with first person shooter (FPS) gameplay. The game’s backend is an event driven architecture, which uses [protocol buffers](https://developers.google.com/protocol-buffers/) for passing messages.\n\nAt the game's core is a 'WarServer' which provides most of the game's services such as *login*, *matchmaking*, *statistics*, *metrics*, *transactions*, *handling results of games*, etc. These services are consumed by various parts of the game - *web client*, *FPS game*, and *mobile client*.\n\n- Implement handlers that service game clients. For example, *buying soldiers*, *equipping/un-equipping items on soldiers*, *execute movement orders for units*, etc.\n\n- The backend architecture uses an in-memory key-value data storage. However, one issue with such a system was handling multiple updated to the same object before a transaction is finalized. I implemented an interface that would allow this functionality by caching intermediate results.\n\n- Some of the game's immutable data had to be accessed through the in-memory data storage system, which was hurting performance. I implemented a cache layer that improved access to this data by about 10 times.\n\n- Data Management: Handling tasks related to management, upgrade, upkeep, and trouble-shooting on the game's dataset which is stored on SQL database servers."
+        details = "**Heroes & Generals** is a free-to-play, massively multiplayer online (MMO) game that combines real-time strategy (RTS) with first person shooter (FPS) gameplay. The game’s backend is an event driven architecture, which uses [protocol buffers](https://developers.google.com/protocol-buffers/) for passing messages.\n\nAt the game's core is a 'WarServer' which provides most of the game's services such as *login*, *matchmaking*, *statistics*, *metrics*, *transactions*, *handling results of games*, etc. These services are consumed by various parts of the game - *web client*, *FPS game*, and *mobile client*.\n\n- Implement handlers that service game clients. For example, *buying soldiers*, *equipping/un-equipping items on soldiers*, *execute movement orders for units*, etc.\n\n- The backend architecture uses an in-memory key-value data storage. However, one issue with such a system was handling multiple updated to the same object before a transaction is finalized. I implemented an interface that would allow this functionality by caching intermediate results.\n\n- Some of the game's immutable data had to be accessed through the in-memory data storage system, which was hurting performance. I implemented a cache layer that improved access to this data by about 10 times.\n\n- Data Management: Handling tasks related to management, upgrade, upkeep, and trouble-shooting on the game's dataset which is stored on SQL database servers."
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "These are some of the side projects that I've worked on in my free time. For more info about these and other such projects visit **[projects.shader.works](https://projects.shader.works/)**"
+        intro = "These are some of the side projects that I've worked on in my free time. For more info about these and other such projects visit [projects.shader.works](https://projects.shader.works/)."
 
         [[params.projects.list]]
         title = "Stay, Good Dog!"
