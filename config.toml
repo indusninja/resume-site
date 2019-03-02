@@ -138,7 +138,8 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I believe that the primary role of a software developer is to 'solve problems'. Want to order a pizza from your phone? Want to show your love for cats to the internet? Want to keep track of things to do? Well, a software developer can solve those for you.\n\nThe most basic problems are the ones that are defined by someone to most detailed level, and a developer is asked to 'just make it work'. However, other problems are more complex and harder to solve:\n\n- Our delivery cycle is very slow because our development team needs many steps before making a release,\n\n- Our software is often buggy,\n\n- We often wildly miss our deadlines,\n\n- We have a hard time keeping hold of development team,\n\n- Our software performs badly,\n\n- Our software systems are very complex and need a lot of time and energy to change direction etc.\n\nI find these broader issues in software development to be very interesting. A solid foundation of architectural foresight and planning, clear and transparent communication, and a good development workflow would be my three wishes for any team to navigate through most of these issues - something that I've learned first-hand from my experience in game development.\n\nI try to feel the pulse of common pitfalls in software development, and am ever curious about new trends which can alleviate those issues. However, there are many more problems for me to explore in software development, and there is much more to learn. The question is... where to next?"
+        summary = "I am a programmer who has passion for software development, learning from people around me and architecting solutions that help development teams be lean, and motivated.\n\nThese skills have been while plying trade as a game programmer for 7 years. However, the lessons learned are also applicable in any programming discipline - as is evident from my current job as a fullstack developer/architect for a fintech company.\n\nA solid foundation of architectural foresight and planning, clear and transparent communication, and a good development workflow would be my three wishes for any team to navigate through most issues - something that I've learned first-hand from my experiences."
+    # TODO: confirm spellings for "fullstack" and "fintech"
 
 # I'm a game programmer with many projects under by belt. 
     # Experiences section
@@ -151,7 +152,8 @@ disable404 = true
         position = "System Developer"
         dates = "2018 - Present"
         company = "If Skadeforsikring, Oslo"
-        details = "For a multi-national company like **If**, the focus is often on designing homogenous processes (and consequently software) to simplify complexity and lower costs. In this particular case, this means a focus on decomposing the company's legacy monolith application into a more flexible and maintainable microservice architecture. My role in this mission statement is to:\n\n- Split up monolith functionality into microservices, and promote these into Azure.\n\n- Design and implement any new services to be cloud native.\n\n- Fullstack development of C# backend systems along with React based frontends."
+        details = "For a multi-national company like **If**, the focus is often on designing homogenous processes (and consequently software) to simplify complexity and lower costs. In this particular case, this means a focus on decomposing the company's legacy monolith application into a more flexible and maintainable microservice architecture. My role in this mission statement is to:\n\n- Split up monolith functionality into microservices and promote these into Azure.\n\n- Design and implement any new services to be cloud native.\n\n- Fullstack development of C# backend systems along with React based frontends."
+        # TODO: confirm spellings for "fullstack" and "microservice"
 
         [[params.jobs.list]]
         position = "Game Programmer"
@@ -195,7 +197,7 @@ disable404 = true
         [[params.projects.list]]
         title = "Snowball Fight"
         url = "https://bitbucket.org/klauskk/snowball"
-        tagline = "3D multiplayer game where players fight across a snow covered playground in teams."
+        tagline = "3D multiplayer game where players fight across a snow-covered playground in teams."
 
         [[params.projects.list]]
         title = "Gnome Engine"
