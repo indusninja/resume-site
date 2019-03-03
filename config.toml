@@ -138,8 +138,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I am a programmer who has passion for software development, learning from people around me and architecting solutions that help development teams be lean, and motivated.\n\nThese skills have been while plying trade as a game programmer for 7 years. However, the lessons learned are also applicable in any programming discipline - as is evident from my current job as a fullstack developer/architect for a fintech company.\n\nA solid foundation of architectural foresight and planning, clear and transparent communication, and a good development workflow would be my three wishes for any team to navigate through most issues - something that I've learned first-hand from my experiences."
-    # TODO: confirm spellings for "fullstack" and "fintech"
+        summary = "I am a programmer who has passion for software development, learning from people around me and to architect solutions that help development teams be lean, and motivated.\n\nThese skills have been while plying trade as a game programmer for 7 years. However, the lessons learned are also applicable in any domain - as is evident from my current job as a full-stack developer/architect for a fin-tech company.\n\nA solid foundation of architectural foresight and planning, clear and transparent communication, and a good development workflow would be my three wishes for any team to navigate through most issues - something that I’ve learned first-hand from my experiences."
 
 # I'm a game programmer with many projects under by belt. 
     # Experiences section
@@ -152,8 +151,7 @@ disable404 = true
         position = "System Developer"
         dates = "2018 - Present"
         company = "If Skadeforsikring, Oslo"
-        details = "For a multi-national company like **If**, the focus is often on designing homogenous processes (and consequently software) to simplify complexity and lower costs. In this particular case, this means a focus on decomposing the company's legacy monolith application into a more flexible and maintainable microservice architecture. My role in this mission statement is to:\n\n- Split up monolith functionality into microservices and promote these into Azure.\n\n- Design and implement any new services to be cloud native.\n\n- Fullstack development of C# backend systems along with React based frontends."
-        # TODO: confirm spellings for "fullstack" and "microservice"
+        details = "For a multi-national company like **If**, the focus is often on designing homogenous processes (and consequently software) to simplify complexity and lower costs. In this particular case, this means a focus on decomposing the company's legacy monolith application into a more flexible and maintainable microservice architecture. My role in this mission statement is to:\n\n- Split up monolith functionality into microservices and promote these into Azure.\n\n- Design and implement any new services to be cloud native.\n\n- Full-stack development of C# backend systems along with React based frontends."
 
         [[params.jobs.list]]
         position = "Game Programmer"
