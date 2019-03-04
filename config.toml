@@ -53,14 +53,14 @@ disable404 = true
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//projects.shader.works"
-        title = "projects.shader.works"
+        url = "//prakashprasad.com"
+        title = "prakashprasad.com"
 
         [[params.contact.list]]
         class = "blog"
         icon = "fa-book"
-        url = "//blog.shader.works"
-        title = "blog.shader.works"
+        url = "//shader.works"
+        title = "shader.works"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -170,7 +170,7 @@ disable404 = true
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "These are some of the side projects that I've worked on in my free time. For more info about these and other such projects visit [projects.shader.works](https://projects.shader.works/)."
+        intro = "These are some of the side projects that I've worked on in my free time. For more info about these and other such projects visit [prakashprasad.com](https://prakashprasad.com/)."
 
         [[params.projects.list]]
         title = "Stay, Good Dog!"

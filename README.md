@@ -21,4 +21,4 @@ You'll find your resume files in `public` folder in the root of Hugo project.
 
 ## Deployment
 
-This site is deployed automatically via [Netlify](https://www.netlify.com/) and can be accessed at [resume.shader.works](https://resume.shader.works/).
+This site is deployed automatically via [Netlify](https://www.netlify.com/) and can be accessed at [resume.prakashprasad.com](https://resume.prakashprasad.com/).
