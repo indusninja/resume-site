@@ -3,6 +3,7 @@ version: '3'
 services:
   hugo:
     image: solidnerd/hugo
+    container_name: hugo-resume
     restart: always
     volumes:
       - .:/hugo
