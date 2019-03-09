@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Open in Chrome",
+            "command": "Chrome",
+            "windows": {
+                "command": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+            },
+            "args": [
+                "http://localhost:1313/"
+            ],
+            "dependsOn": [
+                "Start Dev Version"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },
+        {
+            "label": "Start Dev Version",
+            "type": "shell",
+            "command": "hugo server -w",
+            "windows": {
+                "command": "C:/cmder/bin/hugo.exe server -w"
+            },
+        }
+    ]
+}
