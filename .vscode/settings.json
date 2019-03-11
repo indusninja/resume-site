@@ -8,5 +8,19 @@
         "plaintext"
     ],
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "terminal.integrated.shellArgs.windows": ["/K", "C:\\cmder\\vendor\\init.bat"]
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "C:\\cmder\\vendor\\init.bat"
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#fe71a8",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#8bfe41",
+        "activityBarBadge.foreground": "#15202b",
+        "titleBar.activeBackground": "#fd3f89",
+        "titleBar.inactiveBackground": "#fd3f8999",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveForeground": "#15202b99"
+    }
 }
