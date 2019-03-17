@@ -13,7 +13,7 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Resume for Prakash Prasad"
+    description = "This is the resume webpage for Prakash Prasad. It is a single page website which uses Hugo."
     author = "Prakash Prasad"
     title = "Prakash Prasad's Resume"
 
