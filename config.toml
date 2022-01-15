@@ -45,12 +45,6 @@ disable404 = true
         title = "prakash@prakashprasad.com"
 
         [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel:+4794263344"
-        title = "+4794263344"
-
-        [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
         url = "//prakashprasad.com"
