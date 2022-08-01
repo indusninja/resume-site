@@ -3,7 +3,7 @@
 baseurl = "//ecstatic-clarke-f63514.netlify.com/"
 languageCode = "en-us"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-27962903-3"
+googleAnalytics = "G-1YHDC2HPXL"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -109,7 +109,7 @@ disable404 = true
 
         [[params.language.list]]
         language = "Norwegian"
-        level = "Reading"
+        level = "Intermediate"
         # level = "Professional"
 
     # Interests section
@@ -132,7 +132,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I am a programmer who has passion for software development, learning from people around me and to architect solutions that help development teams be lean, and motivated.\n\nThese skills have been while plying trade as a game programmer for 7 years. However, the lessons learned are also applicable in any domain - as is evident from my current job as a full-stack developer/architect for a fin-tech company.\n\nA solid foundation of architectural foresight and planning, clear and transparent communication, and a good development workflow would be my three wishes for any team to navigate through most issues - something that I’ve learned first-hand from my experiences."
+        summary = "Architect focusing on event-driven architectures, cloud and overall impact of software development on a company."
 
 # I'm a game programmer with many projects under by belt. 
     # Experiences section
@@ -142,22 +142,34 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "System Developer"
-        dates = "2018 - Present"
+        position = "Lead Techincal Architect"
+        dates = "2020 - present"
         company = "If Skadeforsikring, Oslo"
-        details = "For a multi-national company like **If**, the focus is often on designing homogenous processes (and consequently software) to simplify complexity and lower costs. In this particular case, this means a focus on decomposing the company's legacy monolith application into a more flexible and maintainable microservice architecture. My role in this mission statement is to:\n\n- Split up monolith functionality into microservices and promote these into Azure.\n\n- Design and implement any new services to be cloud native.\n\n- Full-stack development of C# backend systems along with React based frontends."
+        details = "A tale as old as time - as companies become successful, their application landscape becomes very large, and often complicated. This means there’s great value in the existing systems, but building on top (or making changes) gets more and more difficult. The mythical “technical debt” rears its head - business is confounded why changes are so slow (and costly), and developers are miserable because they do not know where to start with the changes.\n\nThe good - life goes on, things work, and companies make money.\n\nThe bad - each new improvement, or development gets harder and more time-consuming; people find it complicated to build improvements (where does one even begin); development silos that make the company less and less "agile".\n\nIf's claims organization, is trying to approach this with a new strategy (actually not so new). It involves improving service boundaries of our existing applications, encapsulating our technical debt in a more manageable form, setting up a data strategy to seamlessly integrate with old and new core systems alike, and enabling microservices through an event-sourcing platform."
+
+        [[params.jobs.list]]
+        position = "Techincal Architect"
+        dates = "2019 - 2020"
+        company = "If Skadeforsikring, Oslo"
+        details = "For a company like 'If', the focus is on developing homogenous solutions to simplify processes and lower operating costs. This meant a focus on decomposing the company's legacy monolith applications into a more flexible and maintainable architecture. My role in this mission statement is to:\n\n- Assess the existing code for service boundary issues\n\n- Plan continuous refactoring of the domain to help with technical debt related issues\n\n- Designing new, cloud native applications and microservices"
+
+        [[params.jobs.list]]
+        position = "System Developer"
+        dates = "2018 - 2019"
+        company = "If Skadeforsikring, Oslo"
+        details = "Fullstack development:\n\n- C# backend (.NET Framework, .NET core)\n\n- React frontend\n\nSoftware development responsibility following DevOps philosophy:\n\n- Full lifecycle handling of a user story\n\n- Continuous integration everything\n\n- Continuous deployment everything (with heavy usage of feature-flags)\n\n- Infrastructure as code for Azure resources (using ARM, Bicep)\n\n- Application Monitoring (Application Insights and Message Queues)"
 
         [[params.jobs.list]]
         position = "Game Programmer"
         dates = "2016 - 2018"
         company = "The Future Group, Oslo"
-        details = "The Future Group develops tightly coupled products for television broadcasting using [Unreal Engine 4](https://www.unrealengine.com/en-US/what-is-unreal-engine-4). Their products vary from content for broadcasts, to second screen mobile apps augmenting those broadcasts. Their first show, **Lost in Time**, aired in April 2017 in Norway. While working at there, my duties were:\n\n- As technical lead my role was to liaise with various stakeholders in production of the games - workflow (setting up [Perforce SCM](https://www.perforce.com/products/helix-core), and [Jenkins](https://jenkins.io/) build pipelines), architecture, QA, etc.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimizations for PC and mobile platforms (iOS and Android).\n\n- Architect of a messaging service providing data interoperability for several internal and external products."
+        details = "The Future Group develops tightly coupled products for television broadcasting using Unreal Engine 4. Their products vary from content for broadcasts, to second screen mobile apps augmenting those broadcasts. Their first show, Lost in Time, aired in April 2017 in Norway. While working there, my duties were:\n\n- As technical lead my role was to liaise with various stakeholders in production of the games (for the TV show as well as for mobile phone) - workflow (setting up Perforce SCM, and Jenkins build pipelines), architecture, QA, etc.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimizations for PC and mobile platforms (iOS and Android).\n\n- Architect of a event-driven platform providing data connectivity for several internal and external integrations using a pub/sub architecture."
 
         [[params.jobs.list]]
         position = "Game Programmer"
         dates = "2011 - 2016"
         company = "Reto-Moto, Copenhagen"
-        details = "**Heroes & Generals** is a free-to-play, massively multiplayer online (MMO) game that combines real-time strategy (RTS) with first person shooter (FPS) gameplay. The game’s backend is an event driven architecture, which uses [protocol buffers](https://developers.google.com/protocol-buffers/) for passing messages.\n\nAt the game's core is a 'WarServer' which provides most of the game's services such as *login*, *matchmaking*, *statistics*, *metrics*, *transactions*, *handling results of games*, etc. These services are consumed by various parts of the game - *web client*, *FPS game*, and *mobile client*.\n\n- Implement handlers that service game clients. For example, *buying soldiers*, *equipping/un-equipping items on soldiers*, *execute movement orders for units*, etc.\n\n- The backend architecture uses an in-memory key-value data storage. However, one issue with such a system was handling multiple updated to the same object before a transaction is finalized. I implemented an interface that would allow this functionality by caching intermediate results.\n\n- Some of the game's immutable data had to be accessed through the in-memory data storage system, which was hurting performance. I implemented a cache layer that improved access to this data by about 10 times.\n\n- Data Management: Handling tasks related to management, upgrade, upkeep, and trouble-shooting on the game's dataset which is stored on SQL database servers."
+        details = "Heroes & Generals is a free-to-play, MMO game that combines real-time strategy (RTS) with first person shooter (FPS) gameplay. The game’s framework is built as a Service Oriented Architecture (SOA) using Protocol Buffers for communication.\n\nAt the core is the game’s "War Server", which handles most of its events, such as - login, matchmaking, statistics, metrics, transactions, handling results of games, etc. These event handlers are used by various parts of the game - web client, FPS game, and mobile client.\n\nSome of the tasks I've been involved on the project are:\n\n- Implementing event handlers that service game clients. For eg: buying soldiers, mounting/demounting items, execute unit movement orders, starting a mission, etc. The game logic for the strategy game is also implemented through these event handlers.\n\n- The architecture is based on an in-memory key-value data storage. However, one issue with such a system was handling multiple updated to the same object before a transaction is finalised. I implemented a data cache which would allow this functionality by storing intermediate results and fetching the appropriate object when requested.\n\n- The game's immutable data had to be accessed through the in-memory data storage system. This was a very naive data access method, which would load data from the static store on each event handler execution. I modified the above mentioned data cache system to load this immutable data once on server start, which greatly improved execution times for the handlers.\n\n- Data Management – Handling tasks related to management, upgrade, upkeep, and trouble-shooting on the game's persistent dataset, which is stored on a SQL database server (PostgreSQL)."
 
     # Projects section
     [params.projects]
