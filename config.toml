@@ -13,240 +13,240 @@ disable404 = true
 [params]
 
 # Meta
-    description = "This is the resume webpage for Prakash Prasad. It is a single page website which uses Hugo."
-    author = "Prakash Prasad"
-    title = "Prakash Prasad's Resume"
+description = "This is the resume webpage for Prakash Prasad. It is a single page website which uses Hugo."
+author = "Prakash Prasad"
+title = "Prakash Prasad's Resume"
 
 # Theme styles
 
-    # The original template comes with 6 color schemes. You may choose styles below.
-    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
-    # are available. Also the source LESS files are included so
-    # it’s quick and easy to change the styling and color scheme.
+# The original template comes with 6 color schemes. You may choose styles below.
+# "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+# are available. Also the source LESS files are included so
+# it’s quick and easy to change the styling and color scheme.
 
-    styles = "styles-3.css"
+styles = "styles-3.css"
 
 # Sidebar sections
 
-    # Profile section
-    [params.profile]
-        name = "Prakash Prasad"
-        tagline = "Architect / Tech Lead"
-        avatar = "latest_profile_pic_500x500.jpg"
+# Profile section
+[params.profile]
+name = "Prakash Prasad"
+tagline = "Architect / Tech Lead"
+avatar = "latest_profile_pic_500x500.jpg"
 
-    # Contact section
-    [params.contact]
-        enable = true
+# Contact section
+[params.contact]
+enable = true
 
-        [[params.contact.list]]
-        class = "email"
-        icon = "fa-envelope"
-        url = "mailto: prakash@prakashprasad.com"
-        title = "prakash@prakashprasad.com"
+[[params.contact.list]]
+class = "email"
+icon = "fa-envelope"
+url = "mailto: prakash@prakashprasad.com"
+title = "prakash@prakashprasad.com"
 
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//prakashprasad.com"
-        title = "prakashprasad.com"
+[[params.contact.list]]
+class = "website"
+icon = "fa-globe"
+url = "//prakashprasad.com"
+title = "prakashprasad.com"
 
-        [[params.contact.list]]
-        class = "blog"
-        icon = "fa-book"
-        url = "//shader.works"
-        title = "shader.works"
+[[params.contact.list]]
+class = "blog"
+icon = "fa-book"
+url = "//shader.works"
+title = "shader.works"
 
-        [[params.contact.list]]
-        class = "linkedin"
-        icon = "fa-linkedin"
-        url = "//linkedin.com/in/prakashprasad"
-        title = "linkedin.com/in/prakashprasad"
+[[params.contact.list]]
+class = "linkedin"
+icon = "fa-linkedin"
+url = "//linkedin.com/in/prakashprasad"
+title = "linkedin.com/in/prakashprasad"
 
-        [[params.contact.list]]
-        class = "github"
-        icon = "fa-github"
-        url = "//github.com/indusninja"
-        title = "github.com/indusninja"
+[[params.contact.list]]
+class = "github"
+icon = "fa-github"
+url = "//github.com/indusninja"
+title = "github.com/indusninja"
 
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/indusninja"
-        title = "@indusninja"
+[[params.contact.list]]
+class = "twitter"
+icon = "fa-twitter"
+url = "//twitter.com/indusninja"
+title = "@indusninja"
 
-    # Education section
-    [params.education]
-        enable = true
-        title = "Education"
+# Education section
+[params.education]
+enable = true
+title = "Education"
 
-        [[params.education.list]]
-        degree = "MS in Media Technology & Games"
-        college = "IT University of Copenhagen"
-        dates = "2009 - 2011"
+[[params.education.list]]
+degree = "MS in Media Technology & Games"
+college = "IT University of Copenhagen"
+dates = "2009 - 2011"
 
-        [[params.education.list]]
-        degree = "BS in Computer Science"
-        college = "Coastal Carolina University"
-        dates = "2004 - 2005"
+[[params.education.list]]
+degree = "BS in Computer Science"
+college = "Coastal Carolina University"
+dates = "2004 - 2005"
 
-        [[params.education.list]]
-        degree = "BS in Computer Science"
-        college = "Ansal Institute of Technology"
-        dates = "2002 - 2004"
+[[params.education.list]]
+degree = "BS in Computer Science"
+college = "Ansal Institute of Technology"
+dates = "2002 - 2004"
 
-    # Languages section
-    [params.language]
-        enable = true
-        title = "Languages"
+# Languages section
+[params.language]
+enable = true
+title = "Languages"
 
-        [[params.language.list]]
-        language = "English"
-        level = "Native"
+[[params.language.list]]
+language = "English"
+level = "Native"
 
-        [[params.language.list]]
-        language = "Hindi"
-        level = "Native"
+[[params.language.list]]
+language = "Hindi"
+level = "Native"
 
-        [[params.language.list]]
-        language = "Norwegian"
-        level = "Intermediate"
-        # level = "Professional"
+[[params.language.list]]
+language = "Norwegian"
+level = "Intermediate"
+# level = "Professional"
 
-    # Interests section
-    [params.interests]
-        enable = true
-        title = "Interests"
+# Interests section
+[params.interests]
+enable = true
+title = "Interests"
 
-        [[params.interests.list]]
-        interest = "Climbing"
+[[params.interests.list]]
+interest = "Climbing"
 
-        [[params.interests.list]]
-        interest = "Photography"
+[[params.interests.list]]
+interest = "Photography"
 
 # Main body sections
 
-    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+# You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
 
-    # Summary section
-    [params.summary]
-        enable = true
-        icon = "fa-user"
-        title = "Career Profile"
-        summary = "Architect focusing on event-driven architectures, cloud and overall impact of software development on a company."
+# Summary section
+[params.summary]
+enable = true
+icon = "fa-user"
+title = "Career Profile"
+summary = "Architect focusing on event-driven architectures, cloud and overall impact of software development on a company."
 
 # I'm a game programmer with many projects under by belt. 
-    # Experiences section
-    [params.experiences]
-        enable = true
-        icon = "fa-briefcase"
-        title = "Experiences"
+# Experiences section
+[params.experiences]
+enable = true
+icon = "fa-briefcase"
+title = "Experiences"
 
-        [[params.jobs.list]]
-        position = "Lead Techincal Architect"
-        dates = "2020 - present"
-        company = "If Skadeforsikring, Oslo"
-        details = "A tale as old as time - as companies become successful, their application landscape becomes very large, and often complicated. This means there’s great value in the existing systems, but building on top (or making changes) gets more and more difficult. The mythical “technical debt” rears its head - business is confounded why changes are so slow (and costly), and developers are miserable because they do not know where to start with the changes.\n\nThe good - life goes on, things work, and companies make money.\n\nThe bad - each new improvement, or development gets harder and more time-consuming; people find it complicated to build improvements (where does one even begin); development silos that make the company less and less "agile".\n\nIf's claims organization, is trying to approach this with a new strategy (actually not so new). It involves improving service boundaries of our existing applications, encapsulating our technical debt in a more manageable form, setting up a data strategy to seamlessly integrate with old and new core systems alike, and enabling microservices through an event-sourcing platform."
+[[params.jobs.list]]
+position = "Lead Techincal Architect"
+dates = "2020 - present"
+company = "If Skadeforsikring, Oslo"
+details = "A tale as old as time - as companies become successful, their application landscape becomes very large, and often complicated. This means there’s great value in the existing systems, but building on top (or making changes) gets more and more difficult. The mythical “technical debt” rears its head - business is confounded why changes are so slow (and costly), and developers are miserable because they do not know where to start with the changes.\n\nThe good - life goes on, things work, and companies make money.\n\nThe bad - each new improvement, or development gets harder and more time-consuming; people find it complicated to build improvements (where does one even begin); development silos that make the company less and less \"agile\".\n\nIf's claims organization, is trying to approach this with a new strategy (actually not so new). It involves improving service boundaries of our existing applications, encapsulating our technical debt in a more manageable form, setting up a data strategy to seamlessly integrate with old and new core systems alike, and enabling microservices through an event-sourcing platform."
 
-        [[params.jobs.list]]
-        position = "Techincal Architect"
-        dates = "2019 - 2020"
-        company = "If Skadeforsikring, Oslo"
-        details = "For a company like 'If', the focus is on developing homogenous solutions to simplify processes and lower operating costs. This meant a focus on decomposing the company's legacy monolith applications into a more flexible and maintainable architecture. My role in this mission statement is to:\n\n- Assess the existing code for service boundary issues\n\n- Plan continuous refactoring of the domain to help with technical debt related issues\n\n- Designing new, cloud native applications and microservices"
+[[params.jobs.list]]
+position = "Techincal Architect"
+dates = "2019 - 2020"
+company = "If Skadeforsikring, Oslo"
+details = "For a company like 'If', the focus is on developing homogenous solutions to simplify processes and lower operating costs. This meant a focus on decomposing the company's legacy monolith applications into a more flexible and maintainable architecture. My role in this mission statement is to:\n\n- Assess the existing code for service boundary issues\n\n- Plan continuous refactoring of the domain to help with technical debt related issues\n\n- Designing new, cloud native applications and microservices"
 
-        [[params.jobs.list]]
-        position = "System Developer"
-        dates = "2018 - 2019"
-        company = "If Skadeforsikring, Oslo"
-        details = "Fullstack development:\n\n- C# backend (.NET Framework, .NET core)\n\n- React frontend\n\nSoftware development responsibility following DevOps philosophy:\n\n- Full lifecycle handling of a user story\n\n- Continuous integration everything\n\n- Continuous deployment everything (with heavy usage of feature-flags)\n\n- Infrastructure as code for Azure resources (using ARM, Bicep)\n\n- Application Monitoring (Application Insights and Message Queues)"
+[[params.jobs.list]]
+position = "System Developer"
+dates = "2018 - 2019"
+company = "If Skadeforsikring, Oslo"
+details = "Fullstack development:\n\n- C# backend (.NET Framework, .NET core)\n\n- React frontend\n\nSoftware development responsibility following DevOps philosophy:\n\n- Full lifecycle handling of a user story\n\n- Continuous integration everything\n\n- Continuous deployment everything (with heavy usage of feature-flags)\n\n- Infrastructure as code for Azure resources (using ARM, Bicep)\n\n- Application Monitoring (Application Insights and Message Queues)"
 
-        [[params.jobs.list]]
-        position = "Game Programmer"
-        dates = "2016 - 2018"
-        company = "The Future Group, Oslo"
-        details = "The Future Group develops tightly coupled products for television broadcasting using Unreal Engine 4. Their products vary from content for broadcasts, to second screen mobile apps augmenting those broadcasts. Their first show, Lost in Time, aired in April 2017 in Norway. While working there, my duties were:\n\n- As technical lead my role was to liaise with various stakeholders in production of the games (for the TV show as well as for mobile phone) - workflow (setting up Perforce SCM, and Jenkins build pipelines), architecture, QA, etc.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimizations for PC and mobile platforms (iOS and Android).\n\n- Architect of a event-driven platform providing data connectivity for several internal and external integrations using a pub/sub architecture."
+[[params.jobs.list]]
+position = "Game Programmer"
+dates = "2016 - 2018"
+company = "The Future Group, Oslo"
+details = "The Future Group develops tightly coupled products for television broadcasting using Unreal Engine 4. Their products vary from content for broadcasts, to second screen mobile apps augmenting those broadcasts. Their first show, Lost in Time, aired in April 2017 in Norway. While working there, my duties were:\n\n- As technical lead my role was to liaise with various stakeholders in production of the games (for the TV show as well as for mobile phone) - workflow (setting up Perforce SCM, and Jenkins build pipelines), architecture, QA, etc.\n\n- When getting closer to the delivery deadline, my focus shifted to performance testing, and optimizations for PC and mobile platforms (iOS and Android).\n\n- Architect of a event-driven platform providing data connectivity for several internal and external integrations using a pub/sub architecture."
 
-        [[params.jobs.list]]
-        position = "Game Programmer"
-        dates = "2011 - 2016"
-        company = "Reto-Moto, Copenhagen"
-        details = "Heroes & Generals is a free-to-play, MMO game that combines real-time strategy (RTS) with first person shooter (FPS) gameplay. The game’s framework is built as a Service Oriented Architecture (SOA) using Protocol Buffers for communication.\n\nAt the core is the game’s "War Server", which handles most of its events, such as - login, matchmaking, statistics, metrics, transactions, handling results of games, etc. These event handlers are used by various parts of the game - web client, FPS game, and mobile client.\n\nSome of the tasks I've been involved on the project are:\n\n- Implementing event handlers that service game clients. For eg: buying soldiers, mounting/demounting items, execute unit movement orders, starting a mission, etc. The game logic for the strategy game is also implemented through these event handlers.\n\n- The architecture is based on an in-memory key-value data storage. However, one issue with such a system was handling multiple updated to the same object before a transaction is finalised. I implemented a data cache which would allow this functionality by storing intermediate results and fetching the appropriate object when requested.\n\n- The game's immutable data had to be accessed through the in-memory data storage system. This was a very naive data access method, which would load data from the static store on each event handler execution. I modified the above mentioned data cache system to load this immutable data once on server start, which greatly improved execution times for the handlers.\n\n- Data Management – Handling tasks related to management, upgrade, upkeep, and trouble-shooting on the game's persistent dataset, which is stored on a SQL database server (PostgreSQL)."
+[[params.jobs.list]]
+position = "Game Programmer"
+dates = "2011 - 2016"
+company = "Reto-Moto, Copenhagen"
+details = "Heroes & Generals is a free-to-play, MMO game that combines real-time strategy (RTS) with first person shooter (FPS) gameplay. The game’s framework is built as a Service Oriented Architecture (SOA) using Protocol Buffers for communication.\n\nAt the core is the game’s \"War Server\", which handles most of its events, such as - login, matchmaking, statistics, metrics, transactions, handling results of games, etc. These event handlers are used by various parts of the game - web client, FPS game, and mobile client.\n\nSome of the tasks I've been involved on the project are:\n\n- Implementing event handlers that service game clients. For eg: buying soldiers, mounting/demounting items, execute unit movement orders, starting a mission, etc. The game logic for the strategy game is also implemented through these event handlers.\n\n- The architecture is based on an in-memory key-value data storage. However, one issue with such a system was handling multiple updated to the same object before a transaction is finalised. I implemented a data cache which would allow this functionality by storing intermediate results and fetching the appropriate object when requested.\n\n- The game's immutable data had to be accessed through the in-memory data storage system. This was a very naive data access method, which would load data from the static store on each event handler execution. I modified the above mentioned data cache system to load this immutable data once on server start, which greatly improved execution times for the handlers.\n\n- Data Management – Handling tasks related to management, upgrade, upkeep, and trouble-shooting on the game's persistent dataset, which is stored on a SQL database server (PostgreSQL)."
 
-    # Projects section
-    [params.projects]
-        enable = true
-        icon = "fa-archive"
-        title = "Projects"
-        intro = "These are some of the side projects that I've worked on in my free time. For more info about these and other such projects visit [prakashprasad.com](https://prakashprasad.com/)."
+# Projects section
+[params.projects]
+enable = true
+icon = "fa-archive"
+title = "Projects"
+intro = "These are some of the side projects that I've worked on in my free time. For more info about these and other such projects visit [prakashprasad.com](https://prakashprasad.com/)."
 
-        [[params.projects.list]]
-        title = "Stay, Good Dog!"
-        url = "https://github.com/indusninja/stay-good-dog"
-        tagline = "Game that is all about a friendship between a dog and his owner. You play as the dog, and you must find your way back home to the arms of your owner."
+[[params.projects.list]]
+title = "Stay, Good Dog!"
+url = "https://github.com/indusninja/stay-good-dog"
+tagline = "Game that is all about a friendship between a dog and his owner. You play as the dog, and you must find your way back home to the arms of your owner."
 
-        [[params.projects.list]]
-        title = "What's mine is NOT yours"
-        url = "https://github.com/indusninja/flatmates"
-        tagline = "2D multiplayer game where each player tries to hoard as much items in a shared apartment."
+[[params.projects.list]]
+title = "What's mine is NOT yours"
+url = "https://github.com/indusninja/flatmates"
+tagline = "2D multiplayer game where each player tries to hoard as much items in a shared apartment."
 
-        [[params.projects.list]]
-        title = "The Gods Must be Crazy"
-        url = "https://github.com/indusninja/godsmustbecrazy"
-        tagline = "Game where players have to try to destroy life in a given solar system by utilizing celestial mechanics (i.e. motion of objects in space, under the influence of objects in space)."
+[[params.projects.list]]
+title = "The Gods Must be Crazy"
+url = "https://github.com/indusninja/godsmustbecrazy"
+tagline = "Game where players have to try to destroy life in a given solar system by utilizing celestial mechanics (i.e. motion of objects in space, under the influence of objects in space)."
 
-        [[params.projects.list]]
-        title = "Monkey of Puppets"
-        url = "https://github.com/indusninja/monkeyofpuppets"
-        tagline = "Puzzle game where players have to sneak past the enemies, find the key and get to the door to escape the current level. And do it all over again in the next level."
+[[params.projects.list]]
+title = "Monkey of Puppets"
+url = "https://github.com/indusninja/monkeyofpuppets"
+tagline = "Puzzle game where players have to sneak past the enemies, find the key and get to the door to escape the current level. And do it all over again in the next level."
 
-        [[params.projects.list]]
-        title = "Snowball Fight"
-        url = "https://bitbucket.org/klauskk/snowball"
-        tagline = "3D multiplayer game where players fight across a snow-covered playground in teams."
+[[params.projects.list]]
+title = "Snowball Fight"
+url = "https://bitbucket.org/klauskk/snowball"
+tagline = "3D multiplayer game where players fight across a snow-covered playground in teams."
 
-        [[params.projects.list]]
-        title = "Gnome Engine"
-        url = "https://github.com/indusninja/gnome-engine"
-        tagline = "3D game engine (for OpenGL 3.x), designed for games with physics for balls."
+[[params.projects.list]]
+title = "Gnome Engine"
+url = "https://github.com/indusninja/gnome-engine"
+tagline = "3D game engine (for OpenGL 3.x), designed for games with physics for balls."
 
-        [[params.projects.list]]
-        title = "Bocce"
-        url = "https://github.com/indusninja/bocce"
-        tagline = "2D game engine (for XNA framework)."
+[[params.projects.list]]
+title = "Bocce"
+url = "https://github.com/indusninja/bocce"
+tagline = "2D game engine (for XNA framework)."
 
-    # Skills section
-    [params.skills]
-        enable = true
-        icon = "fa-rocket"
-        title = "Skills & Proficiency"
+# Skills section
+[params.skills]
+enable = true
+icon = "fa-rocket"
+title = "Skills & Proficiency"
 
-        [[params.skills.list]]
-        skill = "C#"
-        level = "100%"
+[[params.skills.list]]
+skill = "C#"
+level = "100%"
 
-        [[params.skills.list]]
-        skill = "C++"
-        level = "90%"
-                
-        [[params.skills.list]]
-        skill = "Javascript"
-        level = "70%"
-                
-        [[params.skills.list]]
-        skill = "React"
-        level = "60%"
+[[params.skills.list]]
+skill = "C++"
+level = "90%"
 
-        [[params.skills.list]]
-        skill = "Unreal Engine"
-        level = "90%"
+[[params.skills.list]]
+skill = "Javascript"
+level = "70%"
 
-    # Footer section
+[[params.skills.list]]
+skill = "React"
+level = "60%"
 
-    # The original template is released under the Creative Commons Attribution 3.0 License.
-    # Please keep the original attribution link when using for your own project.
-    # If you'd like to use the template without the attribution,
-    # you can check out other license options via template author's website: themes.3rdwavemedia.com
-    # 
-    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+[[params.skills.list]]
+skill = "Unreal Engine"
+level = "90%"
 
-    [params.footer]
-        copyright = ""
+# Footer section
+
+# The original template is released under the Creative Commons Attribution 3.0 License.
+# Please keep the original attribution link when using for your own project.
+# If you'd like to use the template without the attribution,
+# you can check out other license options via template author's website: themes.3rdwavemedia.com
+# 
+# As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+[params.footer]
+copyright = ""
